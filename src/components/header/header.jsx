@@ -6,15 +6,15 @@ export default function header({ menuOpen, setMenuOpen}) {
         <div className={"header " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#landing" className="logo">David Szamek</a>
+                    <a href="#landing" className="logo">DS</a>
                     <div className="itemContainer">
-                        <PhoneIphone classname="icon" />
-                        <span>+55 555 555</span>
+                        {/* <PhoneIphone classname="icon" />
+                        <span>+55 555 555</span> */}
                     </div>
 
                     <div className="itemContainer">
-                        <Email classname="icon"/>
-                        <span>davidszamekcoding@gmail.com</span>
+                        {/* <Email classname="icon"/>
+                        <span>davidszamekcoding@gmail.com</span> */}
                     </div>
 
                 </div>
